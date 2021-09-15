@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import img1 from "../../../images/2 (4).png";
-import img2 from "../../../images/1 (1).png";
-import img3 from "../../../images/3(5).png";
+import img1 from '../../../images/ff1.png'
+import img2 from "../../../images/d3.jpg";
+import img3 from '../../../images/hp1.png'
 const Footer = () => {
   return (
     <section>
@@ -46,9 +46,14 @@ const Footer = () => {
         <div className="row bottom">
           <div class="container">
             <div class="row">
-             
-              <div class="col-sm">
+            <div class="col-sm">
+                <a href="/affiliates">  </a>
+              </div>
+              <div class="col-sm affliate">
                 <a href="/affiliates"> Affiliates </a>
+              </div>
+              <div class="col-sm">
+                <a href="/affiliates"> </a>
               </div>
             </div>
           </div>

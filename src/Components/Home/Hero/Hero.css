@@ -16,11 +16,15 @@
 }
 .hero-right.text-center a {
   text-decoration: none;
-  background: #e32a2a;
+  background: yellow;
   color: #fff;
   padding: 10px 15px;
   border-radius: 5px;
   margin-top: 10px;
   display: inline-block;
   font-weight: 600;
+  
+}
+.hero-right.text-center {
+  margin-right: 130px;
 }

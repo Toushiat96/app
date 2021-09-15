@@ -6,7 +6,18 @@ const Header = () => {
   const style1 = {
     paddingTop: "30px",
     color: "white",
+   paddingTop: "30px",
+   marginRight: "30px",
+
   };
+  const style2 = {
+  color: "white",
+  marginRight: "30px",
+  }
+  const style3 = {
+    color: "white",
+
+  }
   return (
     <Navbar
       collapseOnSelect
@@ -22,7 +33,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="nav">
-            <Nav.Link href="/portfolio" style={style1}>
+            <Nav.Link href="/portfolio" style={style1} className="nav2">
               Portfolio
             </Nav.Link>
             <Nav.Link href="/price" style={style1}>
@@ -31,19 +42,19 @@ const Header = () => {
             <Nav.Link
               href="https://connectinghelpinghandsfoundation.org/"
               id="testimonials"
-              style={{ color: "white" }}
+              style={style2}
             >
               Upcoming <br /> Events
             </Nav.Link>
             <Nav.Link
               href="https://www.VonElijahFitness.com/"
-              style={{ color: "white" }}
+              style={style2}
             >
               Von Elijah <br /> Fitness
             </Nav.Link>
             <Nav.Link
               href="https://www.PayAllAthletes.com/"
-              style={{ color: "white" }}
+              style={style2}
             >
               Pay All <br /> Athletes
             </Nav.Link>
